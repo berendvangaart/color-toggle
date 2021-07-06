@@ -9,6 +9,8 @@ body {
 
 #color-list {
     list-style: none;
+    width: 10em;
+    padding-left: 0;
 }
 
 .color {
