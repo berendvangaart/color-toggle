@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(250, 248, 233);
+}
+
+#hamburger {
+    height: 4rem;
+    cursor: pointer;
+}
+
+#color-list {
+    list-style: none;
+}
+
+.color {
+    margin-top: 2px;
+    border: 2px rgb(34, 34, 34) solid;
+    width: 10em;
+    padding: 10px 10px;
+    font-family: monospace;
+    font-weight: lighter;
+    cursor: pointer;   
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: #94d755;
+}
+
+#purple {
+    background-color: #cd94ff;
+}
+
+#blue{
+    background-color: #9cdaff;
+}
+
+#color-container {
+    display: flex;
+}
+
+#color-name {
+    margin: auto auto;
+    color: aliceblue;
+    font-size: 5em;
+    font-family: 'Press Start 2P', cursive;
+}
+
